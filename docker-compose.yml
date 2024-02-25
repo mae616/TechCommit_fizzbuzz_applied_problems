@@ -7,3 +7,5 @@ services:
     volumes:
       - ./src:/app/fizzbuzz
     command: fizzbuzz
+    stdin_open: true
+    tty: true
